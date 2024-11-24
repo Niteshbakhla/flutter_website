@@ -46,7 +46,7 @@ nav>i {
 
 .topSticky {
             position: fixed;
-            top: 0;
+            top: 10%;
 }
 
 nav {
