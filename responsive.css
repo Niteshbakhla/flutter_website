@@ -30,10 +30,12 @@
             .content1>h2 {
                         font-size: 34px;
                         text-align: center;
+                        width: 83%;
             }
 
             .content2 {
                         flex-direction: column;
+                        /* height: 100vh; */
             }
 
             .leftContent,
@@ -59,5 +61,33 @@
             .box>img {
                         display: block;
                         margin: 0 auto;
+            }
+
+            .content3Inside {
+                        flex-direction: column;
+                        margin-top: 60px;
+            }
+
+            .content3LeftSide,
+            .content3RightSide {
+                        width: 100%;
+                        height: inherit;
+            }
+
+            .content3RightSide>img {
+                        width: 315px;
+            }
+
+            .hgroup>h3 {
+                        font-size: 46px;
+            }
+
+            .content3LeftSide>p {
+                        font-size: 18px;
+                        width: 111%;
+            }
+
+            .btnss {
+                        flex-direction: column;
             }
 }
