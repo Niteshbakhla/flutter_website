@@ -165,7 +165,7 @@ nav img {
             justify-content: center;
             gap: 20px;
             padding-top: 40px;
-            height: 87vh;
+            /* display: none; */
 }
 
 .box {
@@ -190,7 +190,10 @@ nav img {
 
 
 .content3 {
-            align-content: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* display: none;        */
 }
 
 .content3Inside {
@@ -240,7 +243,7 @@ nav img {
             border: none;
 }
 
-.content3RightSide{
+.content3RightSide {
             display: flex;
             justify-content: center;
             align-items: flex-start;
