@@ -35,7 +35,6 @@
 
             .content2 {
                         flex-direction: column;
-                        /* height: 100vh; */
             }
 
             .leftContent,
@@ -46,7 +45,7 @@
 
 
             .box {
-                        width: 334px;
+                        width: 282px;
                         margin: 0 auto;
             }
 
@@ -63,8 +62,12 @@
                         margin: 0 auto;
             }
 
+            .content3 {
+                        padding: 20px 0;
+            }
+
             .content3Inside {
-                        flex-direction: column;
+                        flex-direction: column-reverse;
                         margin-top: 60px;
             }
 
@@ -90,4 +93,112 @@
             .btnss {
                         flex-direction: column;
             }
+
+            .content4>div {
+                        flex-direction: column;
+            }
+
+            .content4Left>img {
+                        height: 300px;
+            }
+
+            .content4Right {
+                        padding: 0 0px;
+            }
+
+            .content4Right>h3 {
+                        font-size: 46px;
+                        line-height: 8vh;
+            }
+
+            .content4Left,
+            .content4Right {
+                        width: 100%;
+            }
+
+            .content4Right>h4 {
+                        margin-top: 30px;
+            }
+
+
+            .content5>div {
+                        flex-direction: column;
+            }
+
+            .content5 {
+                        padding: 0 39px;
+            }
+
+            .content6>div {
+                        flex-direction: column;
+                        padding: 10px 27px;
+            }
+
+
+            .content7Content {
+                        margin-top: 30px;
+            }
+
+
+            .content7Left,
+            .content7Right {
+                        width: 100%;
+            }
+
+            .content7Right {
+                        display: none;
+            }
+
+            .content7Left>h3 {
+                        font-size: 46px;
+            }
+
+            .content7Left {
+                        padding: 20px;
+            }
+
+
+            .content7Left>div>button {
+                        margin-right: 11px;
+            }
+
+            .content8 {
+                        padding: 10px 34px;
+            }
+
+            .content8>.cont {
+                        flex-direction: column;
+            }
+
+            .content8Left {
+                        width: 10 0%;
+            }
+
+            .content8Left {
+                        width: 116%;
+                        height: 16vh;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 30px;
+            }
+
+
+
+            .content8Right {
+                        width: 100%;
+                        height: 100vh;
+                        flex-direction: column;
+            }
+
+            .cont2 {
+                        flex-direction: column;
+                        text-align: center;
+                        align-items: center;
+                        padding-top: 30px;
+            }
+
+            .cont2>p {
+                        width: 100%;
+            }
+
 }
